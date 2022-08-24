@@ -1,0 +1,9 @@
+- host: hems
+  model: bl75t
+  label: サーバ
+  rated_power: 750
+
+- host: worker
+  model: bl50t
+  label: ネットワーク
+  rated_power: 500

@@ -1,0 +1,9 @@
+fluent:
+  host: proxy.green-rabbit.net
+
+sense:
+  interval: 120
+  
+liveness:
+  file: /dev/shm/healthz
+
