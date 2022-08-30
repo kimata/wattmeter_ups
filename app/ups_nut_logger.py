@@ -32,7 +32,7 @@ def get_power_list(ups_list):
 
         power_list.append(
             {
-                "label": ups_info["label"],
+                "hostname": ups_info["label"],
                 "power": int(power),
             }
         )
